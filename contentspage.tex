@@ -1,0 +1,81 @@
+\renewcommand\contentsname{{\Huge T}able of {\Huge C}ontents}
+\renewcommand\listtablename{{\Huge L}ist of {\Huge T}ables}
+\renewcommand\listfigurename{{\Huge L}ist of {\Huge F}igures}
+
+\usepackage[titles]{tocloft}
+\usepackage{xcolor,xpatch}
+\renewcommand\cftbeforechapskip{1.5ex}
+%\renewcommand\cftchapfont{\fontfamily{ppl}\selectfont\large}
+%\renewcommand\cftchappagefont{\fontfamily{ppl}\selectfont\large}
+%\renewcommand\cftchappresnum{Chapter~}
+\renewcommand\cftchapaftersnum{. }
+\newlength\tocindent
+\settowidth\tocindent{\cftchapfont\cftchappresnum9\cftchapaftersnum}
+\edef\cftchapnumwidth{\the\tocindent}
+\edef\cftsecindent{\the\tocindent}
+\advance\tocindent2.3em
+\edef\cftsubsecindent{\the\tocindent}
+\advance\tocindent3.2em
+\edef\cftsubsubsecindent{\the\tocindent}
+%\renewcommand\cftsecdotsep{\cftnodots}
+%\renewcommand\cftsubsecdotsep{\cftnodots}
+\renewcommand\cftsubsubsecdotsep{\cftnodots}
+\newcommand\tocmainmatter{\renewcommand\cftchapfont{\fontfamily{ppl}\selectfont\bfseries\scshape}\renewcommand\cftchappagefont{\fontfamily{ppl}\selectfont\large\bfseries}}
+%\xapptocmd\mainmatter{\addtocontents{toc}{\protect\tocmainmatter}}{}{}
+\addtocontents{toc}{\protect\tocmainmatter}
+
+%\renewcommand{\cftfigfont}{Figure~}
+%\renewcommand{\cfttabfont}{Table~}
+
+\renewcommand{\cftfigpresnum}{Figure~}
+\renewcommand{\cfttabpresnum}{Table~}
+
+\newlength{\mylenf}
+\settowidth{\mylenf}{\cftfigpresnum}
+\setlength{\cftfignumwidth}{\dimexpr\mylenf+2.5em}
+\setlength{\cfttabnumwidth}{\dimexpr\mylenf+2.5em}
+
+%
+%\makeatletter
+%\newcommand\listoftablesandfigures{%
+%	\phantomsection
+%	\@starttoc{lot}}
+%	\bigskip
+%	\@starttoc{lof}%
+%\makeatother
+
+%\renewenvironment{leftbar}{   	\def\FrameCommand{{\vrule width 2pt depth 6pt} \hspace{10pt}}\MakeFramed {\advance\hsize-\width \FrameRestore}}
+%
+%\newif\ifschaptertoc
+%\makeatletter
+%\def\@chapter[#1]#2{%
+%	\ifnum \c@secnumdepth >\m@ne
+%	\if@mainmatter
+%	\refstepcounter{chapter}%
+%	\typeout{\@chapapp\space\thechapter.}%
+%	\addtocontents{toc}%
+%	{%
+%		{\protect\parbox{4.5em}{\hfill\Huge\bfseries\thepage}}%
+%		\protect\hspace*{.5em}%
+%		\protect\parbox{\dimexpr\linewidth-5em\relax}{%
+%			\protect\begin{leftbar}
+%				{\scshape\small\chaptername~\thechapter}\\\sffamily#1%
+%				\protect\end{leftbar}%
+%		}\par\noindent%
+%	}%
+%	\else
+%	\addcontentsline{toc}{chapter}{#1}%
+%	\fi
+%	\else
+%	\addcontentsline{toc}{chapter}{#1}%
+%	\fi
+%	\chaptermark{#1}%
+%	\addtocontents{lof}{\protect\addvspace{10\p@}}%
+%	\addtocontents{lot}{\protect\addvspace{10\p@}}%
+%	\if@twocolumn
+%	\@topnewpage[\@makechapterhead{#2}]%
+%	\else
+%	\@makechapterhead{#2}%
+%	\@afterheading
+%	\fi%
+%\makeatother

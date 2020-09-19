@@ -1,0 +1,73 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Example of whiplash injury}}{2}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Typical domain and temperature profiles for cerebral bioheat models found in literature using Pennes Bioheat Equation}}{11}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematic for the various models and the domains used in the 1-Dimensional trials}}{20}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Radial temperature distributions for the Pennes Bioheat Equations and the Wulff/Klinger Equations for $T_{scalp}=36.5^{o}C$ and $T_{scalp}=10^{o}C$}}{27}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Radial temperature distributions for the Pennes Bioheat Equation and Porous Two Phase unidirectional models with $h_{bt}\alpha _{bt} = \text {34,914}W/m^{3}/^{o}C$ for $T_{scalp}=36.5^{o}C$ and $T_{scalp}=10^{o}C$}}{28}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Radial temperature distributions for the Pennes Bioheat Equation and Porous Two Phase unidirectional models with $h_{bt}\alpha _{bt} = 10^{8}W/m^{3}/^{o}C$ for $T_{scalp}=36.5^{o}C$ and $T_{scalp}=10^{o}C$}}{28}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Radial profiles of the differences between the temperature profiles at $T_{scalp}=36.5^{o}C$ and $T_{scalp}=10^{o}C$}}{29}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Radial temperature distributions for the Counter-Current model with $h_{bt}\alpha _{bt} = \text {34,914}W/m^{3}/^{o}C$ for $T_{scalp}=36.5^{o}C$ and $T_{scalp}=10^{o}C$ .}}{30}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Radial temperature distributions for the Counter-Current model with various values for $h_{bt}\alpha _{bt}$ with $T_{scalp}=36.5^{o}C$ compared to radial temperature profile a purely conductive model}}{30}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Mesh and domain for 3D hemispherical model with the location of inlets and outlets}}{32}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Velocity profiles for 3D Hemispherical model}}{33}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Temperature profiles for 3D Hemispherical model with $T_{scalp}=36.5^{o}C$}}{33}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces STLs used of head, brain, arteries and veins visualised in Autodesk Meshmixer}}{35}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Full arterial tree STL generated automatically via software using the input data from BraVa (file: BG001)}}{36}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Close up views of STL creation via software}}{36}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Sparse arterial tree and venous vessel tree embedded within brain and head surfaces}}{37}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Dense arterial tree and venous vessel tree embedded within brain and head surfaces}}{37}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces 1500 flow streamlines generated randomly spread over the inlet areas for the sparse arterial tree model}}{39}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Temperature slices for brain region in sparse arterial tree model, $T_{scalp}=36.5^{o}C$}}{39}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces 1500 flow streamlines generated randomly spread over the inlet areas for the dense arterial tree model}}{40}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Temperature slices for brain region in dense arterial tree model, $T_{scalp}=36.5^{o}C$}}{40}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Slices of head and brain probability maps used for all trials in the VaPor model}}{45}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces RRT algorithm vessel generation for a 2D domain}}{48}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Comparison of two methods of RRT generation with variable regions of perfusion}}{49}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Vessel expansion using RRT Method and diameters from flow}}{49}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces An arbitrary example of a vessel tree dataset with corresponding graphical output}}{50}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces A depiction of the domain structures and interactions present in the VaPor model}}{51}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Depiction of additional nodes used in the vessel trees when solving the 1-Dimensional flowrates}}{52}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Profiles of tissue temperature shown with vascular structure for a trial with no vessels generated at $T_{scalp}=36.5^{o}C$}}{63}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Tissue temperature profiles for scalp temperature of $36.5^{o}C$ using Pennes Bioheat Equation and the VaPor model at various levels of vessel generation}}{64}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Profiles of tissue perfusion using the VaPor model at various levels of vessel generation compared to the input perfusion used in Pennes Bioheat Equation}}{65}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Tissue temperature difference profiles after reducing the scalp temperature from $36.5^{o}C$ to $10^{o}C$ using Pennes Bioheat Equation and the VaPor model at various levels of vessel generation}}{66}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Effects of increasing the number of vessels generated in the VaPor model}}{67}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Variations of tempeature and brain volume with decreasing voxel size}}{68}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Comparison of VaPor model with Ansys CFX 16.0 in a simple cubic geometry}}{70}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Variation of average tissue temperature with arterial inlet temperature for a model with 50,000 generated vessels}}{71}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces The effects of reducing a single arterial inlet temperature to $35^{o}C$ for a model with 200,000 generated vessels}}{71}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces A profile of tissue perfusion and a profile of tissue temperature difference after cooling for a trial using both the alternative vessel generation algorithm and with blood transfer occurring only at branch terminations with 200,000 generated vessels}}{73}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces A histogram of Nusselt numbers for vessels after applying the thermal inlet effect}}{74}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Example of concentration deconvolution for two different voxels in a simulation with 20,000 vessels generated}}{83}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Visualisations of the tracer passing through the various domains after the first 6 seconds of the simulation}}{84}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Profiles of tissue perfusion generated using the continuous tracer method compared to the input perfusion}}{86}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Profiles of tissue porosity generated using the continuous tracer method compared to the input porosity}}{86}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Depiction of the numerical diffusion present in the continuous tracer method with a linear model}}{88}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces 500 flow streamlines generated by the particle tracer method for a simulation with zero vessels generated}}{90}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Depiction of the particle tracer method}}{91}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Visualisations of the tracer, as simulated by 5 million particles using the particle tracer method, passing through the various domains for the first 6 seconds of the simulation}}{92}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Example of concentration deconvolution from a particle tracer simulation using 5 million particles}}{93}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Perfusion profiles generated from particle tracer simulations using 5 million particles for various levels of vessel generation}}{94}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Porosity profiles generated from particle tracer simulations using 5 million particles for various levels of vessel generation}}{94}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Perfusion profiles and concentration deconvolution curves from counter-current particle tracer simulations using 100,000 particles in a coarse grid for different voxel volume segmentations}}{96}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Concentration curve for a single voxel with added Gaussian Noise and deconvolution curve after smoothing using a 10 point moving average}}{98}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Concentration curves using the counter-current particle tracer method with the data sampling frequency length extended to $1s$}}{98}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Perfusion and porosity profiles generated using the continuous tracer method including the indicator present within the vessel domains}}{100}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Comparison of profiles for difference in tissue temperature when scalp temperature is reduced from $36.5^{o}C$ to $10^{o}C$ when using the counter-current flow conditions in the VaPor model}}{107}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces The effect of uniformly increasing the flow reversal constant, $C_{R}$, on overall and core (white-matter) tissue temperatures}}{108}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Profiles for difference in tissue temperature after cooling for $C_{R}=1$ and $C_{R}=5$}}{109}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Comparison of perfusion profiles and histograms of perfusion values when using $C_{R}=1$ and $C_{R}=5$}}{110}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Depiction of surface heat transfer and vertical temperature profiles for the VaPor model and TSE model in a rat brain}}{113}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Vertical temperature profiles for the TSE model, Pennes Bioheat Equation, and the VaPor model with $C_{R}=5$}}{114}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Tissue temperature difference profiles after reducing the scalp temperature from $36.5^{o}C$ to $10^{o}C$ for a reduced scale adult brain representing a neonatal brain}}{114}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Transient reponse of average brain and white matter tissue temperatures to scalp cooling}}{116}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Location of obstruction imposed within the left middle cerebral artery}}{117}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Comparison of directly measured perfusion profiles before and after simulated stroke}}{118}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Temperature profiles for head after simulated stroke with scalp temperature of $36.5^{o}C$ and temperature difference profiles for head after simulated stroke and after reducing scalp tempreature to $10^{o}C$}}{119}
+\addvspace {10\p@ }

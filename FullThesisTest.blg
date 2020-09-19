@@ -1,0 +1,31 @@
+[0] Config.pm:354> INFO - This is Biber 2.7
+[0] Config.pm:357> INFO - Logfile is 'FullThesisTest.blg'
+[30] biber-MSWIN32:303> INFO - === 
+[52] Biber.pm:359> INFO - Reading 'FullThesisTest.bcf'
+[151] Biber.pm:835> INFO - Found 151 citekeys in bib section 0
+[164] Biber.pm:3670> INFO - Processing section 0
+[181] Biber.pm:3840> INFO - Looking for bibtex format file 'BibliographyTest.bib' for section 0
+[195] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[216] bibtex.pm:1292> INFO - Found BibTeX data source 'BibliographyTest.bib'
+[526] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[526] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[526] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
+[527] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[616] bbl.pm:608> INFO - Writing 'FullThesisTest.bbl' with encoding 'ascii'
+[620] Utils.pm:164> WARN - The entry 'busto1987small' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[621] Utils.pm:164> WARN - The entry 'thoresen1996posthypoxic' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[626] Utils.pm:164> WARN - The entry 'arrich2016hypothermia' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[630] Utils.pm:164> WARN - The entry 'bagic2008towards' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[641] Utils.pm:164> WARN - The entry 'majchrzak2013numerical' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[646] Utils.pm:164> WARN - The entry 'sherwin2003one' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[647] Utils.pm:164> WARN - The entry 'reymond2009validation' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[648] Utils.pm:164> WARN - The entry 'appanaboyina2009simulation' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[652] Utils.pm:164> WARN - The entry 'larsson2009measurement' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[653] Utils.pm:164> WARN - The entry 'hedman2012human' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[662] Utils.pm:164> WARN - The entry 'schneider2012tissue' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[664] Utils.pm:164> WARN - The entry 'wu2003tracer' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[665] Utils.pm:164> WARN - The entry 'lia2000quantification' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[666] Utils.pm:164> WARN - The entry 'ostergaard1996high' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[669] Utils.pm:164> WARN - The entry 'wirestam2000assessment' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[671] bbl.pm:712> INFO - Output to FullThesisTest.bbl
+[675] Biber.pm:109> INFO - WARNINGS: 15

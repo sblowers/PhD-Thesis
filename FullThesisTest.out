@@ -1,0 +1,99 @@
+\BOOKMARK [0][-]{chapter*.2}{Abstract}{}% 1
+\BOOKMARK [0][-]{chapter*.3}{Acknowledgements}{}% 2
+\BOOKMARK [0][-]{chapter*.5}{List of Figures}{}% 3
+\BOOKMARK [0][-]{chapter*.6}{List of Tables}{}% 4
+\BOOKMARK [0][-]{chapter*.7}{Nomenclature}{}% 5
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 6
+\BOOKMARK [1][-]{section.1.1}{Background}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.2}{Objectives and Specific Aims}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.3}{Overview of Dissertation}{chapter.1}% 9
+\BOOKMARK [0][-]{chapter.2}{Review of the Relevant Literature}{}% 10
+\BOOKMARK [1][-]{section.2.1}{Therapeutic Hypothermia}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.1.1}{History}{section.2.1}% 12
+\BOOKMARK [2][-]{subsection.2.1.2}{Effects of Inducing Hypothermia}{section.2.1}% 13
+\BOOKMARK [2][-]{subsection.2.1.3}{Selective Brain Cooling \(SBC\)}{section.2.1}% 14
+\BOOKMARK [2][-]{subsection.2.1.4}{Cerebral Temperature Measurement}{section.2.1}% 15
+\BOOKMARK [2][-]{subsection.2.1.5}{Methods for Inducing SBC in Humans}{section.2.1}% 16
+\BOOKMARK [1][-]{section.2.2}{Modelling Bioheat Temperatures}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.1}{Continuum Models}{section.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.2}{Porous Media}{section.2.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.3}{Discrete Vascular \(DiVa\) Model}{section.2.2}% 20
+\BOOKMARK [2][-]{subsection.2.2.4}{Combining Discrete Vasculature with Porous Media}{section.2.2}% 21
+\BOOKMARK [1][-]{section.2.3}{Blood Flow Modelling}{chapter.2}% 22
+\BOOKMARK [2][-]{subsection.2.3.1}{Types of Blood Flow Modelling}{section.2.3}% 23
+\BOOKMARK [2][-]{subsection.2.3.2}{Heat Transfer in Blood Flow Modelling}{section.2.3}% 24
+\BOOKMARK [1][-]{section.2.4}{Application of Various Models to Scalp Cooling}{chapter.2}% 25
+\BOOKMARK [0][-]{chapter.3}{Introducing Directional Blood Flow into Cerebral Bioheat Models}{}% 26
+\BOOKMARK [1][-]{section.3.1}{1D Hemispherical Model}{chapter.3}% 27
+\BOOKMARK [2][-]{subsection.3.1.1}{Theory}{section.3.1}% 28
+\BOOKMARK [2][-]{subsection.3.1.2}{Set-Up}{section.3.1}% 29
+\BOOKMARK [2][-]{subsection.3.1.3}{Results \046 Discussion}{section.3.1}% 30
+\BOOKMARK [2][-]{subsection.3.1.4}{Conclusion}{section.3.1}% 31
+\BOOKMARK [1][-]{section.3.2}{3D Hemispherical Model}{chapter.3}% 32
+\BOOKMARK [2][-]{subsection.3.2.1}{Theory}{section.3.2}% 33
+\BOOKMARK [2][-]{subsection.3.2.2}{Results}{section.3.2}% 34
+\BOOKMARK [1][-]{section.3.3}{Full 3D Model with Vasculature}{chapter.3}% 35
+\BOOKMARK [2][-]{subsection.3.3.1}{Creating Vasculature}{section.3.3}% 36
+\BOOKMARK [2][-]{subsection.3.3.2}{Set-Up}{section.3.3}% 37
+\BOOKMARK [2][-]{subsection.3.3.3}{Results}{section.3.3}% 38
+\BOOKMARK [2][-]{subsection.3.3.4}{Conclusion \046 Limitations of Method}{section.3.3}% 39
+\BOOKMARK [0][-]{chapter.4}{Vascular Porous \(VaPor\) Model for Temperature and Flow in Cerebral Vasculature and Tissue}{}% 40
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 41
+\BOOKMARK [1][-]{section.4.2}{Acquiring 3D Tissue Domains}{chapter.4}% 42
+\BOOKMARK [1][-]{section.4.3}{Acquiring Blood Vessel Data}{chapter.4}% 43
+\BOOKMARK [1][-]{section.4.4}{Connecting Vessels to 3D Domain}{chapter.4}% 44
+\BOOKMARK [1][-]{section.4.5}{Flow Solvers}{chapter.4}% 45
+\BOOKMARK [2][-]{subsection.4.5.1}{1-Dimensional Flowrates}{section.4.5}% 46
+\BOOKMARK [2][-]{subsection.4.5.2}{3-Dimensional Flowrates}{section.4.5}% 47
+\BOOKMARK [1][-]{section.4.6}{Temperature Solver}{chapter.4}% 48
+\BOOKMARK [2][-]{subsection.4.6.1}{Conduction}{section.4.6}% 49
+\BOOKMARK [2][-]{subsection.4.6.2}{Convection}{section.4.6}% 50
+\BOOKMARK [2][-]{subsection.4.6.3}{Inter-Domain Heat Transfer}{section.4.6}% 51
+\BOOKMARK [2][-]{subsection.4.6.4}{Inter-Domain Heat Convection from Blood Transfer}{section.4.6}% 52
+\BOOKMARK [2][-]{subsection.4.6.5}{Metabolic Heat Generation}{section.4.6}% 53
+\BOOKMARK [2][-]{subsection.4.6.6}{Heat Transfer Using Pennes Bioheat Equation}{section.4.6}% 54
+\BOOKMARK [2][-]{subsection.4.6.7}{Solving}{section.4.6}% 55
+\BOOKMARK [1][-]{section.4.7}{Results}{chapter.4}% 56
+\BOOKMARK [1][-]{section.4.8}{Analysis of Model}{chapter.4}% 57
+\BOOKMARK [2][-]{subsection.4.8.1}{Mesh Dependency}{section.4.8}% 58
+\BOOKMARK [2][-]{subsection.4.8.2}{Comparison with Ansys 16.0 Flow Solver}{section.4.8}% 59
+\BOOKMARK [2][-]{subsection.4.8.3}{Arterial Inlet Temperatures}{section.4.8}% 60
+\BOOKMARK [2][-]{subsection.4.8.4}{Vascular Generation and Modelling Methods}{section.4.8}% 61
+\BOOKMARK [2][-]{subsection.4.8.5}{Incorporating Thermal Inlet Effects}{section.4.8}% 62
+\BOOKMARK [1][-]{section.4.9}{Discussion}{chapter.4}% 63
+\BOOKMARK [2][-]{subsection.4.9.1}{Comparison to Previous Bioheat Models}{section.4.9}% 64
+\BOOKMARK [2][-]{subsection.4.9.2}{Clinical Relevance}{section.4.9}% 65
+\BOOKMARK [1][-]{section.4.10}{Conclusion}{chapter.4}% 66
+\BOOKMARK [0][-]{chapter.5}{Measuring Perfusion within the VaPor Model}{}% 67
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 68
+\BOOKMARK [1][-]{section.5.2}{Theory Behind Perfusion Measurements}{chapter.5}% 69
+\BOOKMARK [2][-]{subsection.5.2.1}{Deconvolution}{section.5.2}% 70
+\BOOKMARK [1][-]{section.5.3}{Continuous Tracer Method}{chapter.5}% 71
+\BOOKMARK [2][-]{subsection.5.3.1}{Results}{section.5.3}% 72
+\BOOKMARK [2][-]{subsection.5.3.2}{Equations showing Numerical Diffusion}{section.5.3}% 73
+\BOOKMARK [2][-]{subsection.5.3.3}{Linear Tracer Model Showing Numerical Diffusion}{section.5.3}% 74
+\BOOKMARK [2][-]{subsection.5.3.4}{Attempts to Tackle Numerical Diffusion}{section.5.3}% 75
+\BOOKMARK [2][-]{subsection.5.3.5}{Description of Transit-Time Diffusion}{section.5.3}% 76
+\BOOKMARK [1][-]{section.5.4}{Particle Tracer Method}{chapter.5}% 77
+\BOOKMARK [2][-]{subsection.5.4.1}{Algorithm}{section.5.4}% 78
+\BOOKMARK [2][-]{subsection.5.4.2}{Residence Time}{section.5.4}% 79
+\BOOKMARK [2][-]{subsection.5.4.3}{Results}{section.5.4}% 80
+\BOOKMARK [2][-]{subsection.5.4.4}{Counter-Current Model}{section.5.4}% 81
+\BOOKMARK [1][-]{section.5.5}{Including Vessels in Calculations}{chapter.5}% 82
+\BOOKMARK [1][-]{section.5.6}{Discussion}{chapter.5}% 83
+\BOOKMARK [2][-]{subsection.5.6.1}{Methodology}{section.5.6}% 84
+\BOOKMARK [2][-]{subsection.5.6.2}{Comparison to in-vivo Results}{section.5.6}% 85
+\BOOKMARK [1][-]{section.5.7}{Conclusion}{chapter.5}% 86
+\BOOKMARK [0][-]{chapter.6}{Further Exploration and Applications Using the VaPor Model}{}% 87
+\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 88
+\BOOKMARK [1][-]{section.6.2}{Employing Counter-Current Flow in the VaPor Model}{chapter.6}% 89
+\BOOKMARK [2][-]{subsection.6.2.1}{Counter-Current Model}{section.6.2}% 90
+\BOOKMARK [2][-]{subsection.6.2.2}{Counter-Current Flow Using Arbitrary Flow Reversal}{section.6.2}% 91
+\BOOKMARK [1][-]{section.6.3}{Comparing the VaPor Model to Previous Works at Different Scales}{chapter.6}% 92
+\BOOKMARK [2][-]{subsection.6.3.1}{Investigating the Temperature Profile of a Rat Brain Under Normal Ambient Conditions}{section.6.3}% 93
+\BOOKMARK [2][-]{subsection.6.3.2}{Investigating Scalp Cooling with a Neonatal Brain}{section.6.3}% 94
+\BOOKMARK [1][-]{section.6.4}{Exploring the Transient Response to Scalp Cooling}{chapter.6}% 95
+\BOOKMARK [1][-]{section.6.5}{Simulating an Ischemic Stroke}{chapter.6}% 96
+\BOOKMARK [1][-]{section.6.6}{Discussion and Conclusion}{chapter.6}% 97
+\BOOKMARK [0][-]{chapter.7}{Conclusions and Future Work}{}% 98
+\BOOKMARK [0][-]{chapter*.97}{References}{}% 99
